@@ -19,11 +19,11 @@ namespace XamarinFun.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult MyMobileApps()
         {
             ViewData["Message"] = "";
 
-            return View();
+            return View("MyMobileApps");
         }
 
         public IActionResult Error()
