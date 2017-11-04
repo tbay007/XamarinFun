@@ -21,7 +21,6 @@ namespace XamarinFun.Controllers
 
         public IActionResult MyMobileApps()
         {
-            ViewData["Message"] = "";
 
             return View("MyMobileApps");
         }
